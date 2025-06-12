@@ -14,5 +14,7 @@
   </div>
 
   <script src="assets/js/script.js"></script>
+  <?php include_once("commons/footer.php"); ?>
+
 </body>
 </html>

@@ -11,7 +11,7 @@
 
     <ul class="navbar-menu ms-5 " id="navbar-menu">
       <li><a href="about.php">About</a></li>
-      <li><a href="#">Become a CSP</a></li>
+      <li><a href="csp.php">Become a CSP</a></li>
       <li><a href="service.php">Services</a></li>
       <li><a href="#">Partners</a></li>
       <li><a href="#">News & Media</a></li>

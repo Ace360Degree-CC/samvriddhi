@@ -343,7 +343,6 @@
     <section class="py-5 bg-white">
       <div class="container">
         <div class="row align-items-center g-4">
-          <!-- Left: States List -->
           <div class="col-lg-6">
             <h2 class="fw-bold mb-3">Where We Operate</h2>
             <p class="mb-4">
@@ -413,13 +412,12 @@
             </p>
           </div>
 
-          <!-- Right: India Map Image -->
           <div class="col-lg-6 text-center">
             <img
               src="assets/img/services/where-we-operate.png"
               alt="India Map"
               class="img-fluid"
-              style="max-width: 400px"
+              width="300px"
             />
           </div>
         </div>

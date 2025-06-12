@@ -28,13 +28,18 @@ body {
 }
 
 .navbar-logo img {
-  height: 40px;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-menu {
   display: flex;
   list-style: none;
   gap: 1.5rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-menu li a {
@@ -42,6 +47,9 @@ body {
   color: #333;
   font-weight: 500;
   transition: color 0.3s;
+  display: inline-block; /* prevents baseline alignment issues */
+  padding: 0.5rem 0;
+  line-height: 1;
 }
 
 .navbar-menu li a:hover {
@@ -106,7 +114,7 @@ body {
 
   .navbar-container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .navbar-toggle {

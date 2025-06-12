@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <?php include("commons/headerlinks.php"); ?>
+  <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
 
@@ -12,6 +13,6 @@
     <p>This is your custom Bootstrap-free responsive site.</p>
   </div>
 
-  <script src="js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

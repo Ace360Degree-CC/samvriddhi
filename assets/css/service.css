@@ -1,0 +1,54 @@
+.service-hero {
+  background-color: var(--theme-secondary);
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.service-hero .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.service-hero .breadcrumb {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 1rem;
+}
+
+.service-hero h1 {
+  color: var(--theme-primary);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.service-hero .lead {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.service-hero p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #333; /* Neutral text color */
+  font-weight: 500;
+}
+
+.breadcrumb .current {
+  color: var(--theme-primary);
+  font-weight: 600;
+  border-bottom: 2px solid var(--theme-primary);
+  padding-bottom: 2px;
+}
+
+.btn-outline-light.theme-hover:hover {
+  color: var(--theme-primary);
+}
